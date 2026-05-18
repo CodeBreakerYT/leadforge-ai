@@ -2,6 +2,10 @@
 
 LeadForge AI is a fully automated, AI-powered lead intake and processing platform built with Next.js 15, Firebase, Google Gemini, and Puppeteer. It captures leads, scrapes their websites, generates personalized growth audits, creates professional PDFs, uploads them to Google Drive, and emails them automatically.
 
+## Disclaimer
+Check out the files in https://drive.google.com/drive/folders/1rG9evxf5ADn2J-G7nGBPxszfHmgfgJZC?usp=sharing
+Download the **secrets** folder and keep it in src to run it locally
+
 ## Tech Stack
 - Next.js 15 (App Router)
 - TypeScript
