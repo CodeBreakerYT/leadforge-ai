@@ -1,0 +1,42 @@
+Project: LeadForge AI
+
+This project was built as an AI-powered lead intake and outreach automation platform. The main objective was to automate the complete workflow from user lead submission to personalized report generation and email delivery.
+
+The application uses Next.js, TypeScript, Firebase Firestore, Google Gemini AI, Puppeteer, Google Sheets API, Google Drive API, and Resend email integration.
+
+Key features implemented:
+
+Lead intake form with validation
+Firebase Firestore integration
+Automated website scraping and enrichment
+AI-generated personalized business audit reports
+PDF report generation using Puppeteer
+Automated email delivery with PDF attachment
+Google Sheets lead logging
+Google Drive PDF archiving
+Admin dashboard for lead management
+Workflow status tracking
+
+One of the biggest challenges during development was integrating multiple third-party services reliably into a single automated pipeline. API permissions, Firestore setup, Google Sheets access, Gemini model compatibility, and Puppeteer PDF generation required debugging and fallback handling.
+
+To improve reliability, the project includes:
+
+Error handling for all external APIs
+Workflow status updates
+Graceful fallbacks for scraping and AI failures
+Modular service architecture
+Reusable utility functions
+
+The project focuses heavily on automation, maintainability, and real-world SaaS workflow simulation. The final result demonstrates the ability to design and implement an end-to-end AI-driven business automation system.
+
+Potential future improvements:
+
+More advanced AI analysis
+Better website performance auditing
+User authentication
+Multi-user dashboards
+CRM integrations
+Queue-based background processing
+Advanced analytics and monitoring
+
+Overall, this project demonstrates practical full-stack engineering, AI integration, automation workflows, and modern SaaS application development.
